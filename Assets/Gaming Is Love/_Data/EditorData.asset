@@ -29,13 +29,15 @@ MonoBehaviour:
   jumpListDrag: 250
   dataSelectionSorting: 0
   typeDataSelectionSorting: 0
-  createBackup: 1
+  createBackup: 0
   updateSchematics: 1
   schematicUpdateFolder: 
   updatePrefabs: 0
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: d1067bfa69f52e54cbf0aa97635b0bde, type: 2}
+  - {fileID: 11400000, guid: 4e5c80e71e25f49408034ab20e01884c, type: 2}
   - {fileID: 11400000, guid: 3958bad8bb4cc8447adf7889318b4ade, type: 2}
   dialogueImportSettings:
     name: 
@@ -46,7 +48,8 @@ MonoBehaviour:
     encrypted: 0
   variablesDefined: []
   variablesEditor: []
-  variablesSchematic: []
+  variablesSchematic:
+  - ui
   variablesScene: []
   variablesPrefab: []
   foldoutKeys: []
