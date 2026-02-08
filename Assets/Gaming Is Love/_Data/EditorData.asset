@@ -18,9 +18,9 @@ MonoBehaviour:
   editorHelpLanguageTexts: {fileID: 0}
   section: 7
   subSection: 5
-  tabIndex: 2
-  scrollY: 4612
-  foldoutLimit: 
+  tabIndex: -1
+  scrollY: 4088
+  foldoutLimit: Battle Settings
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
@@ -36,6 +36,10 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: aa93dae0468924843859444ceef3022a, type: 2}
+  - {fileID: 11400000, guid: f96fab476a4320b48bc8f05e7fd1a238, type: 2}
+  - {fileID: 11400000, guid: b4fa0850e188c9b4faa95133b0b93ba7, type: 2}
+  - {fileID: 11400000, guid: cdc0ee6be00427d49a06f7373166903f, type: 2}
   - {fileID: 11400000, guid: 29b9d5d2314a2834dac8ddf0fedde7c2, type: 2}
   - {fileID: 11400000, guid: b7a051634c93d42419c2564f6f8b6f0b, type: 2}
   - {fileID: 11400000, guid: ef1b8331a3d784d4b9fcd30c6c0eb249, type: 2}
