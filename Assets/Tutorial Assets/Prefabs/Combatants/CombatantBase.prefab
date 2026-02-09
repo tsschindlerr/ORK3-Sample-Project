@@ -42,6 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8358126704826883561}
+  - component: {fileID: 5641127035971392430}
   m_Layer: 10
   m_Name: Weapon
   m_TagString: Untagged
@@ -64,6 +65,186 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6559597837759385771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5641127035971392430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015109474936239628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -344071752, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata materialIndex="0" >
+
+      <_bool setScale="False" useChildRenderer="False"
+      useMaterialIndex="False" onlyCombatantBattle="False" />
+
+      <_floatarrays>
+
+      <scale
+      1 1 1 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <childRenderer><![CDATA[]]></childRenderer>
+
+      </_string>
+
+      <equipmentSlot>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </equipmentSlot>
+
+      <condition needed="0"
+      >
+
+      <_subarrays>
+
+      <condition>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.VariableGeneralCondition`1]]></_type>
+
+      </_string>
+
+      <variableCondition
+      needed="0" >
+
+      <_subarrays>
+
+      <variable>
+
+      <0 conditionType="0"
+      >
+
+      <_bool templateIsValid="True" />
+
+      <checkVariable type="1" axisType="0"
+      stringCheck="0" >
+
+      <_bool isValid="True" exists="False" />
+
+      <variable
+      origin="2" objectScope="1" listOrigin="0" >
+
+      <_bool removeFromList="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[showWeapon]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      <fromObject
+      type="0" >
+
+      <_bool selectedOnlyGameObjects="False" useRoot="False" />
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </fromObject>
+
+      </variable>
+
+      </checkVariable>
+
+      </0>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      </settings>
+
+      </0>
+
+      </condition>
+
+      </_subarrays>
+
+      </condition>
+
+      <_subarrays>
+
+      <childLink>
+
+      </childLink>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 0c65d5a6876c7da4ab6cdd222fd875d0, type: 2}
+    encrypted: 0
+    stringData: 
 --- !u!1 &4342842981058320845
 GameObject:
   m_ObjectHideFlags: 0
