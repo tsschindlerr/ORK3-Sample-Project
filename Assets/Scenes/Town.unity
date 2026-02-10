@@ -16795,6 +16795,544 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1352744038
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 520741024035672273, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932635676634224950, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245147798055401019, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      propertyPath: m_Name
+      value: Villager4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8245147798055401019, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352744042}
+    - targetCorrespondingSourceObject: {fileID: 8245147798055401019, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352744041}
+    - targetCorrespondingSourceObject: {fileID: 8245147798055401019, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352744040}
+  m_SourcePrefab: {fileID: 100100000, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+--- !u!1 &1352744039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8245147798055401019, guid: 5956b006625966a4ab4df4b76d7976b7, type: 3}
+  m_PrefabInstance: {fileID: 1352744038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1352744040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352744039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1443279654, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_conditionSetting:
+    name: conditionSetting
+    byteData: 
+    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
+
+      <_float
+      destroyCheckDelay="1" />
+
+      <_bool repeatCheck="False" />
+
+      <_subarrays>
+
+      <condition>
+
+      </condition>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+  waypoints: []
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool rememberCombatant="False" rememberGlobal="False"
+      blockMoveAI="False" ownMoveAI="False" randomWaypointOrder="False" />
+
+      <_string>
+
+      <spawnerID><![CDATA[]]></spawnerID>
+
+      </_string>
+
+      <faction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </faction>
+
+      <combatantSetting
+      battleGroupIndex="0" >
+
+      <_bool useType="False" useSubTypes="False" learnAbilities="True"
+      useStartInventory="True" useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
+      isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="True"
+      classUseLevelZone="True" />
+
+      <combatant>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </combatant>
+
+      <level type="0"
+      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </level>
+
+      <classLevel
+      type="0" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+
+      <_float
+      formulaInitialValue="0" />
+
+      <_bool onlyBattle="False" />
+
+      <_string>
+
+      <key><![CDATA[]]></key>
+
+      </_string>
+
+      </classLevel>
+
+      </combatantSetting>
+
+      <moveAI>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </moveAI>
+
+      <battleArena>
+
+      <_float
+      nearestRange="20" />
+
+      <_bool setPosition="False" setRotation="False"
+      useNearest="False" />
+
+      <battleSystem>
+
+      <_bool ownBattleSystem="False"
+      />
+
+      </battleSystem>
+
+      </battleArena>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 7c9d17943dd15b043ae856d36120791d, type: 2}
+      - {fileID: 11400000, guid: c8848cabe11b4774cb8e6f0b70d9c5c4, type: 2}
+    encrypted: 0
+    stringData: 
+--- !u!114 &1352744041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352744039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1217795412, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_conditionSetting:
+    name: conditionSetting
+    byteData: 
+    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
+
+      <_float
+      destroyCheckDelay="1" />
+
+      <_bool repeatCheck="False" />
+
+      <_subarrays>
+
+      <condition>
+
+      </condition>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+  serialize_baseSettings:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <assetSetting executionType="0" updateType="0" priority="0"
+      endAction="0" >
+
+      <_float startDelayTime="0" endDelayTime="0" autoStopCheckTime="0"
+      />
+
+      <_bool inPause="False" setPriority="False" stopOnDestroy="True" turnStartingObject="True"
+      turnMachineObject="True" turnRestoreMachineObject="False" autoStop="False"
+      />
+
+      <_asset schematicAsset="0" />
+
+      <machineType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </machineType>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </assetSetting>
+
+      <changeAfterSetting>
+
+      <_bool
+      setVariables="False" />
+
+      </changeAfterSetting>
+
+      <startVariableSetting>
+
+      <_bool
+      setStartVariables="False" />
+
+      </startVariableSetting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: ec434ac7996b0ea46a59fd7b9b7eda45, type: 2}
+    encrypted: 0
+    stringData: 
+  actor:
+  - actor: []
+  resources:
+    prefab: []
+    audioClip: []
+    audioMixer: []
+    audioMixerGroup: []
+    sprite: []
+    texture: []
+    material: []
+    physicMaterial: []
+    physicsMaterial2D: []
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool useAutoStopDistance="False" />
+
+      <startSetting
+      needed="0" >
+
+      <_float maxInteractionDistance="3" maxMouseDistance="3"
+      />
+
+      <_bool isInteract="True" isKeyPress="False" isDrop="False" isMouseDown="False"
+      isMouseDrag="False" isMouseUp="False" isMouseUpAsButton="True" isMouseEnter="False"
+      isMouseOver="False" isMouseExit="False" setInteractionDistance="False" setMouseDistance="False"
+      keyPressInTrigger="False" keyPressWhileColliding="False" startByRoot="False"
+      />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.InteractionMachineStartSetting]]></_type>
+
+      </_string>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <_subarrays>
+
+      <dropCondition>
+
+      </dropCondition>
+
+      </_subarrays>
+
+      </startSetting>
+
+      <moveToInteraction>
+
+      <_float
+      interactionRadius="1" stopDistance="1" />
+
+      <_bool useMoveToInteraction="True"
+      overrideInteractionRadius="False" setInteractionRadius="False" overrideStopDistance="False"
+      overrideMoveToSpeed="False" />
+
+      <moveToSpeed>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="5" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </moveToSpeed>
+
+      </moveToInteraction>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+--- !u!114 &1352744042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352744039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -346837212, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool isLocal="True" alwaysInitialize="False" />
+
+      <_string>
+
+      <objectID><![CDATA[91f921a7-e59c-4553-b37f-69aea414418a]]></objectID>
+
+      </_string>
+
+      <initialVariables>
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </initialVariables>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
 --- !u!1 &1673189326
 GameObject:
   m_ObjectHideFlags: 0
@@ -19067,3 +19605,4 @@ SceneRoots:
   - {fileID: 64811161}
   - {fileID: 1025068522}
   - {fileID: 1114214408}
+  - {fileID: 1352744038}
